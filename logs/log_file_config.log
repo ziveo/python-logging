@@ -1,0 +1,5 @@
+2022-05-24 08:14:38,796 - root - DEBUG - This is a debug message
+2022-05-24 08:14:38,796 - root - INFO - This is an info message
+2022-05-24 08:14:38,796 - root - WARNING - This is a warning message
+2022-05-24 08:14:38,796 - root - ERROR - This is an error message
+2022-05-24 08:14:38,796 - root - CRITICAL - This is a critical message
