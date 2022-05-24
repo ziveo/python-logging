@@ -1,10 +1,7 @@
 import logging
-import logging.config
+from logging import config
 
-logging.config.fileConfig(fname="log_file_config.ini", disable_existing_loggers=False)
-
-# Get the logger specified in the file
-# logger = logging.getLogger(__name__)
+config.fileConfig(fname="log_file_config.ini", disable_existing_loggers=False)
 
 
 logging.debug("This is a debug message")
